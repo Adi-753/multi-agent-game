@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Agent Game Tester POC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎮 Multi-Agent Game Tester POC</h1>
+            <p>Automated testing for <a href="https://play.ezygamers.com/" target="_blank">EzyGamers Number Puzzle</a></p>
+        </header>
+
+        <main>
+            <section class="control-panel">
+                <h2>Test Controls</h2>
+                <div class="button-group">
+                    <button id="generatePlanBtn" class="btn btn-primary">
+                        📋 Generate Test Plan (20+ tests)
+                    </button>
+                    <button id="executeTestsBtn" class="btn btn-success" disabled>
+                        ▶️ Execute Top 10 Tests
+                    </button>
+                    <button id="viewReportsBtn" class="btn btn-info">
+                        📊 View Reports
+                    </button>
+                </div>
+            </section>
+
+            <section class="status-panel">
+                <h2>Status</h2>
+                <div id="statusMessage" class="status-message">Ready to start testing...</div>
+                <div id="progressBar" class="progress-bar" style="display: none;">
+                    <div class="progress-fill" style="width: 0%"></div>
+                </div>
+                <div id="currentTest" class="current-test"></div>
+            </section>
+
+            <section id="testPlanSection" class="test-plan-section" style="display: none;">
+                <h2>Test Plan Generated</h2>
+                <div class="plan-summary">
+                    <p>Total Test Cases: <span id="totalTests">0</span></p>
+                    <p>Top 10 Selected for Execution</p>
+                </div>
+                <div id="testList" class="test-list"></div>
+            </section>
+
+            <section id="resultsSection" class="results-section" style="display: none;">
+                                <h2>Execution Results</h2>
+                <div id="resultsSummary" class="results-summary"></div>
+                <div id="resultsDetails" class="results-details"></div>
+            </section>
+
+            <section id="reportsSection" class="reports-section" style="display: none;">
+                <h2>Available Reports</h2>
+                <div id="reportsList" class="reports-list"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Multi-Agent Game Tester POC | Built with LangChain, FastAPI & Playwright</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
