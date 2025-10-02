@@ -1,0 +1,1724 @@
+[
+  {
+    "id": "game_0",
+    "game_url": "https://play.ezygamers.com/",
+    "analysis": {
+      "game_url": "https://play.ezygamers.com/",
+      "game_type": "number_matching_puzzle",
+      "ui_elements": [
+        {
+          "type": "button",
+          "text": "English",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "हिन्दी",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "ಕನ್ನಡ",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "தமிழ்",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "తెలుగు",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "+",
+          "id": "add-btn-tutorial",
+          "class": [
+            "control-button",
+            "bg-blue-500",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center",
+            "text-4xl",
+            "mx-auto"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "💡",
+          "id": "tutorial-hint-btn",
+          "class": [
+            "control-button",
+            "bg-yellow-400",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center",
+            "text-4xl"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "Unknown",
+          "id": "whatsapp-share-btn",
+          "class": [
+            "control-button",
+            "bg-green-500",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center",
+            "p-4"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "+",
+          "id": "add-row-btn",
+          "class": [
+            "control-button",
+            "bg-blue-500",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center",
+            "text-4xl"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "💡",
+          "id": "hint-btn",
+          "class": [
+            "control-button",
+            "bg-yellow-400",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "English",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "हिन्दी",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "ಕನ್ನಡ",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "தமிழ்",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "తెలుగు",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star5",
+          "placeholder": null
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star4",
+          "placeholder": null
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star3",
+          "placeholder": null
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star2",
+          "placeholder": null
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star1",
+          "placeholder": null
+        },
+        {
+          "type": "game_container",
+          "count": 5,
+          "classes": [
+            "['game-grid-container-dimmed', 'grid', 'grid-cols-5', 'border-t', 'border-l', 'border-gray-200', 'rounded-lg', 'overflow-hidden']",
+            "['game-grid-container', 'grid', 'grid-cols-5', 'mb-4']",
+            "['grid', 'grid-cols-2', 'gap-4', 'mb-1', 'flex-shrink-0']",
+            "['game-grid-container', 'grid', 'grid-cols-9']",
+            "['grid', 'grid-cols-2', 'gap-3']"
+          ]
+        }
+      ],
+      "mechanics": {
+        "primary": "click_to_select_numbers",
+        "objective": "sum_numbers_to_target",
+        "progression": "stage_based",
+        "clickable_elements_count": 38
+      },
+      "features": [
+        "hint_system",
+        "stage_progression",
+        "score_tracking",
+        "multi_language",
+        "sound_settings",
+        "high_score"
+      ],
+      "interaction_model": "click_based"
+    },
+    "timestamp": "2025-10-02T13:15:05.355823",
+    "game_type": "number_matching_puzzle",
+    "features": [
+      "hint_system",
+      "stage_progression",
+      "score_tracking",
+      "multi_language",
+      "sound_settings",
+      "high_score"
+    ],
+    "mechanics": {
+      "primary": "click_to_select_numbers",
+      "objective": "sum_numbers_to_target",
+      "progression": "stage_based",
+      "clickable_elements_count": 38
+    }
+  },
+  {
+    "id": "game_1",
+    "game_url": "https://play.ezygamers.com/",
+    "analysis": {
+      "game_url": "https://play.ezygamers.com/",
+      "game_type": "number_matching_puzzle",
+      "ui_elements": [
+        {
+          "type": "button",
+          "text": "English",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "हिन्दी",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "ಕನ್ನಡ",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "தமிழ்",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "తెలుగు",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "+",
+          "id": "add-btn-tutorial",
+          "class": [
+            "control-button",
+            "bg-blue-500",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center",
+            "text-4xl",
+            "mx-auto"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "💡",
+          "id": "tutorial-hint-btn",
+          "class": [
+            "control-button",
+            "bg-yellow-400",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center",
+            "text-4xl"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "Unknown",
+          "id": "whatsapp-share-btn",
+          "class": [
+            "control-button",
+            "bg-green-500",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center",
+            "p-4"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "+",
+          "id": "add-row-btn",
+          "class": [
+            "control-button",
+            "bg-blue-500",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center",
+            "text-4xl"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "💡",
+          "id": "hint-btn",
+          "class": [
+            "control-button",
+            "bg-yellow-400",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "English",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "हिन्दी",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "ಕನ್ನಡ",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "தமிழ்",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "తెలుగు",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star5",
+          "placeholder": null
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star4",
+          "placeholder": null
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star3",
+          "placeholder": null
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star2",
+          "placeholder": null
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star1",
+          "placeholder": null
+        },
+        {
+          "type": "game_container",
+          "count": 5,
+          "classes": [
+            "['game-grid-container-dimmed', 'grid', 'grid-cols-5', 'border-t', 'border-l', 'border-gray-200', 'rounded-lg', 'overflow-hidden']",
+            "['game-grid-container', 'grid', 'grid-cols-5', 'mb-4']",
+            "['grid', 'grid-cols-2', 'gap-4', 'mb-1', 'flex-shrink-0']",
+            "['game-grid-container', 'grid', 'grid-cols-9']",
+            "['grid', 'grid-cols-2', 'gap-3']"
+          ]
+        }
+      ],
+      "mechanics": {
+        "primary": "click_to_select_numbers",
+        "objective": "sum_numbers_to_target",
+        "progression": "stage_based",
+        "clickable_elements_count": 38
+      },
+      "features": [
+        "hint_system",
+        "stage_progression",
+        "score_tracking",
+        "multi_language",
+        "sound_settings",
+        "high_score"
+      ],
+      "interaction_model": "click_based"
+    },
+    "timestamp": "2025-10-02T13:15:19.528088",
+    "game_type": "number_matching_puzzle",
+    "features": [
+      "hint_system",
+      "stage_progression",
+      "score_tracking",
+      "multi_language",
+      "sound_settings",
+      "high_score"
+    ],
+    "mechanics": {
+      "primary": "click_to_select_numbers",
+      "objective": "sum_numbers_to_target",
+      "progression": "stage_based",
+      "clickable_elements_count": 38
+    }
+  },
+  {
+    "id": "game_2",
+    "game_url": "https://play.ezygamers.com/",
+    "analysis": {
+      "game_url": "https://play.ezygamers.com/",
+      "game_type": "number_matching_puzzle",
+      "ui_elements": [
+        {
+          "type": "button",
+          "text": "English",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "हिन्दी",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "ಕನ್ನಡ",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "தமிழ்",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "తెలుగు",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "+",
+          "id": "add-btn-tutorial",
+          "class": [
+            "control-button",
+            "bg-blue-500",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center",
+            "text-4xl",
+            "mx-auto"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "💡",
+          "id": "tutorial-hint-btn",
+          "class": [
+            "control-button",
+            "bg-yellow-400",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center",
+            "text-4xl"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "Unknown",
+          "id": "whatsapp-share-btn",
+          "class": [
+            "control-button",
+            "bg-green-500",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center",
+            "p-4"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "+",
+          "id": "add-row-btn",
+          "class": [
+            "control-button",
+            "bg-blue-500",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center",
+            "text-4xl"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "💡",
+          "id": "hint-btn",
+          "class": [
+            "control-button",
+            "bg-yellow-400",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "English",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "हिन्दी",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "ಕನ್ನಡ",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "தமிழ்",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "తెలుగు",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star5",
+          "placeholder": null
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star4",
+          "placeholder": null
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star3",
+          "placeholder": null
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star2",
+          "placeholder": null
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star1",
+          "placeholder": null
+        },
+        {
+          "type": "game_container",
+          "count": 5,
+          "classes": [
+            "['game-grid-container-dimmed', 'grid', 'grid-cols-5', 'border-t', 'border-l', 'border-gray-200', 'rounded-lg', 'overflow-hidden']",
+            "['game-grid-container', 'grid', 'grid-cols-5', 'mb-4']",
+            "['grid', 'grid-cols-2', 'gap-4', 'mb-1', 'flex-shrink-0']",
+            "['game-grid-container', 'grid', 'grid-cols-9']",
+            "['grid', 'grid-cols-2', 'gap-3']"
+          ]
+        }
+      ],
+      "mechanics": {
+        "primary": "click_to_select_numbers",
+        "objective": "sum_numbers_to_target",
+        "progression": "stage_based",
+        "clickable_elements_count": 38
+      },
+      "features": [
+        "hint_system",
+        "stage_progression",
+        "score_tracking",
+        "multi_language",
+        "sound_settings",
+        "high_score"
+      ],
+      "interaction_model": "click_based"
+    },
+    "timestamp": "2025-10-02T13:17:37.086563",
+    "game_type": "number_matching_puzzle",
+    "features": [
+      "hint_system",
+      "stage_progression",
+      "score_tracking",
+      "multi_language",
+      "sound_settings",
+      "high_score"
+    ],
+    "mechanics": {
+      "primary": "click_to_select_numbers",
+      "objective": "sum_numbers_to_target",
+      "progression": "stage_based",
+      "clickable_elements_count": 38
+    }
+  },
+  {
+    "id": "game_3",
+    "game_url": "https://play.ezygamers.com/",
+    "analysis": {
+      "game_url": "https://play.ezygamers.com/",
+      "game_type": "number_matching_puzzle",
+      "ui_elements": [
+        {
+          "type": "button",
+          "text": "English",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "हिन्दी",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "ಕನ್ನಡ",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "தமிழ்",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "తెలుగు",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "+",
+          "id": "add-btn-tutorial",
+          "class": [
+            "control-button",
+            "bg-blue-500",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center",
+            "text-4xl",
+            "mx-auto"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "💡",
+          "id": "tutorial-hint-btn",
+          "class": [
+            "control-button",
+            "bg-yellow-400",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center",
+            "text-4xl"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "Unknown",
+          "id": "whatsapp-share-btn",
+          "class": [
+            "control-button",
+            "bg-green-500",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center",
+            "p-4"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "+",
+          "id": "add-row-btn",
+          "class": [
+            "control-button",
+            "bg-blue-500",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center",
+            "text-4xl"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "💡",
+          "id": "hint-btn",
+          "class": [
+            "control-button",
+            "bg-yellow-400",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "English",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "हिन्दी",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "ಕನ್ನಡ",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "தமிழ்",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "తెలుగు",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star5",
+          "placeholder": null
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star4",
+          "placeholder": null
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star3",
+          "placeholder": null
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star2",
+          "placeholder": null
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star1",
+          "placeholder": null
+        },
+        {
+          "type": "game_container",
+          "count": 5,
+          "classes": [
+            "['game-grid-container-dimmed', 'grid', 'grid-cols-5', 'border-t', 'border-l', 'border-gray-200', 'rounded-lg', 'overflow-hidden']",
+            "['game-grid-container', 'grid', 'grid-cols-5', 'mb-4']",
+            "['grid', 'grid-cols-2', 'gap-4', 'mb-1', 'flex-shrink-0']",
+            "['game-grid-container', 'grid', 'grid-cols-9']",
+            "['grid', 'grid-cols-2', 'gap-3']"
+          ]
+        }
+      ],
+      "mechanics": {
+        "primary": "click_to_select_numbers",
+        "objective": "sum_numbers_to_target",
+        "progression": "stage_based",
+        "clickable_elements_count": 38
+      },
+      "features": [
+        "hint_system",
+        "stage_progression",
+        "score_tracking",
+        "multi_language",
+        "sound_settings",
+        "high_score"
+      ],
+      "interaction_model": "click_based"
+    },
+    "timestamp": "2025-10-02T13:17:49.218712",
+    "game_type": "number_matching_puzzle",
+    "features": [
+      "hint_system",
+      "stage_progression",
+      "score_tracking",
+      "multi_language",
+      "sound_settings",
+      "high_score"
+    ],
+    "mechanics": {
+      "primary": "click_to_select_numbers",
+      "objective": "sum_numbers_to_target",
+      "progression": "stage_based",
+      "clickable_elements_count": 38
+    }
+  },
+  {
+    "id": "game_4",
+    "game_url": "https://play.ezygamers.com/",
+    "analysis": {
+      "game_url": "https://play.ezygamers.com/",
+      "game_type": "number_matching_puzzle",
+      "ui_elements": [
+        {
+          "type": "button",
+          "text": "English",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "हिन्दी",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "ಕನ್ನಡ",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "தமிழ்",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "తెలుగు",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "+",
+          "id": "add-btn-tutorial",
+          "class": [
+            "control-button",
+            "bg-blue-500",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center",
+            "text-4xl",
+            "mx-auto"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "💡",
+          "id": "tutorial-hint-btn",
+          "class": [
+            "control-button",
+            "bg-yellow-400",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center",
+            "text-4xl"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "Unknown",
+          "id": "whatsapp-share-btn",
+          "class": [
+            "control-button",
+            "bg-green-500",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center",
+            "p-4"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "+",
+          "id": "add-row-btn",
+          "class": [
+            "control-button",
+            "bg-blue-500",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center",
+            "text-4xl"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "💡",
+          "id": "hint-btn",
+          "class": [
+            "control-button",
+            "bg-yellow-400",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "English",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "हिन्दी",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "ಕನ್ನಡ",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "தமிழ்",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "తెలుగు",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star5",
+          "placeholder": null
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star4",
+          "placeholder": null
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star3",
+          "placeholder": null
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star2",
+          "placeholder": null
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star1",
+          "placeholder": null
+        },
+        {
+          "type": "game_container",
+          "count": 5,
+          "classes": [
+            "['game-grid-container-dimmed', 'grid', 'grid-cols-5', 'border-t', 'border-l', 'border-gray-200', 'rounded-lg', 'overflow-hidden']",
+            "['game-grid-container', 'grid', 'grid-cols-5', 'mb-4']",
+            "['grid', 'grid-cols-2', 'gap-4', 'mb-1', 'flex-shrink-0']",
+            "['game-grid-container', 'grid', 'grid-cols-9']",
+            "['grid', 'grid-cols-2', 'gap-3']"
+          ]
+        }
+      ],
+      "mechanics": {
+        "primary": "click_to_select_numbers",
+        "objective": "sum_numbers_to_target",
+        "progression": "stage_based",
+        "clickable_elements_count": 38
+      },
+      "features": [
+        "hint_system",
+        "stage_progression",
+        "score_tracking",
+        "multi_language",
+        "sound_settings",
+        "high_score"
+      ],
+      "interaction_model": "click_based"
+    },
+    "timestamp": "2025-10-02T13:48:31.498383",
+    "game_type": "number_matching_puzzle",
+    "features": [
+      "hint_system",
+      "stage_progression",
+      "score_tracking",
+      "multi_language",
+      "sound_settings",
+      "high_score"
+    ],
+    "mechanics": {
+      "primary": "click_to_select_numbers",
+      "objective": "sum_numbers_to_target",
+      "progression": "stage_based",
+      "clickable_elements_count": 38
+    }
+  },
+  {
+    "id": "game_5",
+    "game_url": "https://play.ezygamers.com/",
+    "analysis": {
+      "game_url": "https://play.ezygamers.com/",
+      "game_type": "number_matching_puzzle",
+      "ui_elements": [
+        {
+          "type": "button",
+          "text": "English",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "हिन्दी",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "ಕನ್ನಡ",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "தமிழ்",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "తెలుగు",
+          "id": null,
+          "class": [
+            "w-full",
+            "bg-white",
+            "text-gray-800",
+            "font-bold",
+            "py-3",
+            "rounded-xl",
+            "hover:bg-gray-200",
+            "initial-lang-btn"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "+",
+          "id": "add-btn-tutorial",
+          "class": [
+            "control-button",
+            "bg-blue-500",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center",
+            "text-4xl",
+            "mx-auto"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "💡",
+          "id": "tutorial-hint-btn",
+          "class": [
+            "control-button",
+            "bg-yellow-400",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center",
+            "text-4xl"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "Unknown",
+          "id": "whatsapp-share-btn",
+          "class": [
+            "control-button",
+            "bg-green-500",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center",
+            "p-4"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "+",
+          "id": "add-row-btn",
+          "class": [
+            "control-button",
+            "bg-blue-500",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center",
+            "text-4xl"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "💡",
+          "id": "hint-btn",
+          "class": [
+            "control-button",
+            "bg-yellow-400",
+            "text-white",
+            "flex",
+            "items-center",
+            "justify-center"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "English",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "हिन्दी",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "ಕನ್ನಡ",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "தமிழ்",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "button",
+          "text": "తెలుగు",
+          "id": null,
+          "class": [
+            "lang-btn",
+            "text-lg",
+            "p-2",
+            "rounded-md",
+            "hover:bg-gray-200"
+          ]
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star5",
+          "placeholder": null
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star4",
+          "placeholder": null
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star3",
+          "placeholder": null
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star2",
+          "placeholder": null
+        },
+        {
+          "type": "input",
+          "input_type": "radio",
+          "id": "star1",
+          "placeholder": null
+        },
+        {
+          "type": "game_container",
+          "count": 5,
+          "classes": [
+            "['game-grid-container-dimmed', 'grid', 'grid-cols-5', 'border-t', 'border-l', 'border-gray-200', 'rounded-lg', 'overflow-hidden']",
+            "['game-grid-container', 'grid', 'grid-cols-5', 'mb-4']",
+            "['grid', 'grid-cols-2', 'gap-4', 'mb-1', 'flex-shrink-0']",
+            "['game-grid-container', 'grid', 'grid-cols-9']",
+            "['grid', 'grid-cols-2', 'gap-3']"
+          ]
+        }
+      ],
+      "mechanics": {
+        "primary": "click_to_select_numbers",
+        "objective": "sum_numbers_to_target",
+        "progression": "stage_based",
+        "clickable_elements_count": 38
+      },
+      "features": [
+        "hint_system",
+        "stage_progression",
+        "score_tracking",
+        "multi_language",
+        "sound_settings",
+        "high_score"
+      ],
+      "interaction_model": "click_based"
+    },
+    "timestamp": "2025-10-02T13:48:46.676595",
+    "game_type": "number_matching_puzzle",
+    "features": [
+      "hint_system",
+      "stage_progression",
+      "score_tracking",
+      "multi_language",
+      "sound_settings",
+      "high_score"
+    ],
+    "mechanics": {
+      "primary": "click_to_select_numbers",
+      "objective": "sum_numbers_to_target",
+      "progression": "stage_based",
+      "clickable_elements_count": 38
+    }
+  }
+]

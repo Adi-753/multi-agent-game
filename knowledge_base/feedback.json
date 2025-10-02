@@ -1,0 +1,79 @@
+[
+  {
+    "id": "feedback_0",
+    "test_id": "sumlink_003",
+    "feedback": "Hint button actually exists but uses a lightbulb icon without text. Update selector to find it by icon class.",
+    "context": {
+      "category": "selector_issue",
+      "game_url": "https://play.ezygamers.com/"
+    },
+    "timestamp": "2025-10-02T13:15:19.686576",
+    "game_url": "https://play.ezygamers.com/"
+  },
+  {
+    "id": "feedback_1",
+    "test_id": "sumlink_001",
+    "feedback": "Test is accurate. Number tiles are correctly identified and clickable.",
+    "context": {
+      "category": "validation",
+      "game_url": "https://play.ezygamers.com/"
+    },
+    "timestamp": "2025-10-02T13:15:19.729631",
+    "game_url": "https://play.ezygamers.com/"
+  },
+  {
+    "id": "feedback_2",
+    "test_id": "sumlink_019",
+    "feedback": "Critical test - game is fully playable with correct sum validation",
+    "context": {
+      "category": "validation",
+      "game_url": "https://play.ezygamers.com/"
+    },
+    "timestamp": "2025-10-02T13:17:37.205699",
+    "game_url": "https://play.ezygamers.com/"
+  },
+  {
+    "id": "feedback_3",
+    "test_id": "sumlink_003",
+    "feedback": "The hint button uses a lightbulb icon (.lightbulb-icon), not text 'Hint'",
+    "context": {
+      "category": "selector_correction",
+      "game_url": "https://play.ezygamers.com/"
+    },
+    "timestamp": "2025-10-02T13:48:31.747084",
+    "game_url": "https://play.ezygamers.com/"
+  },
+  {
+    "id": "feedback_4",
+    "test_id": "sumlink_005",
+    "feedback": "Mobile viewport should be exactly 375px width for proper testing",
+    "context": {
+      "category": "viewport_specification",
+      "game_url": "https://play.ezygamers.com/"
+    },
+    "timestamp": "2025-10-02T13:48:31.802930",
+    "game_url": "https://play.ezygamers.com/"
+  },
+  {
+    "id": "feedback_5",
+    "test_id": "sumlink_001",
+    "feedback": "This test works perfectly! Good click-based approach",
+    "context": {
+      "category": "validation",
+      "game_url": "https://play.ezygamers.com/"
+    },
+    "timestamp": "2025-10-02T13:48:31.845568",
+    "game_url": "https://play.ezygamers.com/"
+  },
+  {
+    "id": "feedback_6",
+    "test_id": "general",
+    "feedback": "SumLink always shows target sum with a + sign like '+10' or '+15'",
+    "context": {
+      "category": "game_knowledge",
+      "game_url": "https://play.ezygamers.com/"
+    },
+    "timestamp": "2025-10-02T13:48:31.896018",
+    "game_url": "https://play.ezygamers.com/"
+  }
+]

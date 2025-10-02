@@ -38,6 +38,21 @@ from agents.orchestrator import OrchestratorAgent
 from agents.analyzer import AnalyzerAgent
 from services.report_generator import ReportGenerator
 from models.schemas import TestPlan, ExecutionRequest, Report
+from dotenv import load_dotenv
+
+load_dotenv()
+
+GAME_URL = os.getenv("GAME_URL", "https://play.ezygamers.com/")
+
+try:
+    from rag_simple import SimpleRAGKnowledgeBase
+    RAG = SimpleRAGKnowledgeBase()
+    RAG_AVAILABLE = True
+    print("RAG Knowledge Base initialized")
+except Exception as e:
+    RAG = None
+    RAG_AVAILABLE = False
+    print(f"Warning: RAG not available - {e}")
 
 app = FastAPI(title="Multi-Agent Game Tester POC")
 
@@ -79,7 +94,7 @@ async def generate_plan():
     ranker = RankerAgent()
     
     try:
-        test_cases = await planner.generate_test_cases("https://play.ezygamers.com/")
+        test_cases = await planner.generate_test_cases(GAME_URL)
         ranked_cases = await ranker.rank_test_cases(test_cases)
         
         current_plan = {
@@ -168,6 +183,53 @@ async def list_reports():
             if file.endswith(".json"):
                 reports.append(file.replace(".json", ""))
     return {"reports": reports}
+
+@app.get("/api/rag/insights")
+async def get_rag_insights():
+    if not RAG_AVAILABLE or not RAG:
+        return {
+            "available": False,
+            "message": "RAG knowledge base not available"
+        }
+    
+    try:
+        insights = RAG.get_learning_insights(GAME_URL)
+        return {
+            "available": True,
+            "game_url": GAME_URL,
+            "insights": insights
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/api/rag/feedback")
+async def add_feedback(feedback: Dict):
+    if not RAG_AVAILABLE or not RAG:
+        return {
+            "success": False,
+            "message": "RAG knowledge base not available"
+        }
+    
+    try:
+        test_id = feedback.get("test_id", "unknown")
+        feedback_text = feedback.get("feedback", "")
+        context = feedback.get("context", {})
+        
+        RAG.store_feedback(test_id, feedback_text, {**context, "game_url": GAME_URL})
+        
+        return {
+            "success": True,
+            "message": "Feedback stored successfully"
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/config")
+async def get_config():
+    return {
+        "game_url": GAME_URL,
+        "rag_available": RAG_AVAILABLE
+    }
 
 if __name__ == "__main__":
     import uvicorn

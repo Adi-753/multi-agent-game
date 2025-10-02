@@ -1,0 +1,185 @@
+[
+  {
+    "id": "test_0",
+    "test_id": "sumlink_001",
+    "game_url": "https://play.ezygamers.com/",
+    "result": {
+      "test_id": "sumlink_001",
+      "name": "Verify basic number tile clicking",
+      "status": "passed",
+      "duration": 18,
+      "category": "functionality",
+      "errors": []
+    },
+    "timestamp": "2025-10-02T13:15:19.571321",
+    "status": "passed",
+    "duration": 18,
+    "errors": []
+  },
+  {
+    "id": "test_1",
+    "test_id": "sumlink_002",
+    "game_url": "https://play.ezygamers.com/",
+    "result": {
+      "test_id": "sumlink_002",
+      "name": "Test stage progression",
+      "status": "passed",
+      "duration": 42,
+      "category": "functionality",
+      "errors": []
+    },
+    "timestamp": "2025-10-02T13:15:19.609413",
+    "status": "passed",
+    "duration": 42,
+    "errors": []
+  },
+  {
+    "id": "test_2",
+    "test_id": "sumlink_003",
+    "game_url": "https://play.ezygamers.com/",
+    "result": {
+      "test_id": "sumlink_003",
+      "name": "Test hint functionality",
+      "status": "failed",
+      "duration": 12,
+      "category": "functionality",
+      "errors": [
+        "Hint button not found in DOM"
+      ]
+    },
+    "timestamp": "2025-10-02T13:15:19.646219",
+    "status": "failed",
+    "duration": 12,
+    "errors": [
+      "Hint button not found in DOM"
+    ]
+  },
+  {
+    "id": "test_3",
+    "test_id": "sumlink_019",
+    "game_url": "https://play.ezygamers.com/",
+    "result": {
+      "test_id": "sumlink_019",
+      "status": "passed",
+      "duration": 25,
+      "name": "Verify game is actually playable"
+    },
+    "timestamp": "2025-10-02T13:17:37.127242",
+    "status": "passed",
+    "duration": 25,
+    "errors": []
+  },
+  {
+    "id": "test_4",
+    "test_id": "sumlink_020",
+    "game_url": "https://play.ezygamers.com/",
+    "result": {
+      "test_id": "sumlink_020",
+      "status": "passed",
+      "duration": 30,
+      "name": "Test sum validation accuracy"
+    },
+    "timestamp": "2025-10-02T13:17:37.149025",
+    "status": "passed",
+    "duration": 30,
+    "errors": []
+  },
+  {
+    "id": "test_5",
+    "test_id": "sumlink_001",
+    "game_url": "https://play.ezygamers.com/",
+    "result": {
+      "test_id": "sumlink_001",
+      "status": "passed",
+      "duration": 20,
+      "name": "Verify basic number tile clicking"
+    },
+    "timestamp": "2025-10-02T13:17:37.175187",
+    "status": "passed",
+    "duration": 20,
+    "errors": []
+  },
+  {
+    "id": "test_6",
+    "test_id": "sumlink_001",
+    "game_url": "https://play.ezygamers.com/",
+    "result": {
+      "test_id": "sumlink_001",
+      "name": "Click tiles test",
+      "status": "passed",
+      "duration": 20
+    },
+    "timestamp": "2025-10-02T13:48:31.555381",
+    "status": "passed",
+    "duration": 20,
+    "errors": []
+  },
+  {
+    "id": "test_7",
+    "test_id": "sumlink_002",
+    "game_url": "https://play.ezygamers.com/",
+    "result": {
+      "test_id": "sumlink_002",
+      "name": "Stage progression",
+      "status": "passed",
+      "duration": 30
+    },
+    "timestamp": "2025-10-02T13:48:31.592566",
+    "status": "passed",
+    "duration": 30,
+    "errors": []
+  },
+  {
+    "id": "test_8",
+    "test_id": "sumlink_003",
+    "game_url": "https://play.ezygamers.com/",
+    "result": {
+      "test_id": "sumlink_003",
+      "name": "Hint button test",
+      "status": "failed",
+      "errors": [
+        "Selector button:has-text('Hint') not found"
+      ]
+    },
+    "timestamp": "2025-10-02T13:48:31.621590",
+    "status": "failed",
+    "duration": 0,
+    "errors": [
+      "Selector button:has-text('Hint') not found"
+    ]
+  },
+  {
+    "id": "test_9",
+    "test_id": "sumlink_004",
+    "game_url": "https://play.ezygamers.com/",
+    "result": {
+      "test_id": "sumlink_004",
+      "name": "Score tracking",
+      "status": "passed",
+      "duration": 15
+    },
+    "timestamp": "2025-10-02T13:48:31.669320",
+    "status": "passed",
+    "duration": 15,
+    "errors": []
+  },
+  {
+    "id": "test_10",
+    "test_id": "sumlink_005",
+    "game_url": "https://play.ezygamers.com/",
+    "result": {
+      "test_id": "sumlink_005",
+      "name": "Mobile test",
+      "status": "failed",
+      "errors": [
+        "Viewport size incorrect"
+      ]
+    },
+    "timestamp": "2025-10-02T13:48:31.705455",
+    "status": "failed",
+    "duration": 0,
+    "errors": [
+      "Viewport size incorrect"
+    ]
+  }
+]

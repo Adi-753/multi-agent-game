@@ -1,0 +1,883 @@
+{
+  "report_id": "report_20251002_133727",
+  "timestamp": "2025-10-02T13:37:27.192869",
+  "test_plan_id": "plan_20251002_133330",
+  "total_planned_tests": 20,
+  "tests_executed": 10,
+  "summary": {
+    "total_tests": 10,
+    "passed": 4,
+    "failed": 6,
+    "flaky": 0,
+    "inconclusive": 0,
+    "needs_review": 0,
+    "average_reproducibility": 0.4,
+    "tests_with_errors": 10,
+    "tests_with_warnings": 0,
+    "pass_rate": 40.0
+  },
+  "test_results": [
+    {
+      "test_id": "sumlink_006",
+      "test_name": "Test deselecting tiles",
+      "verdict": "FAIL",
+      "consensus": {
+        "status": "fail",
+        "confidence": 0.0,
+        "success_count": 0,
+        "total_count": 3
+      },
+      "cross_validation": {
+        "validated": true,
+        "consistent_steps": true,
+        "consistent_errors": true,
+        "step_variance": 0
+      },
+      "reproducibility_score": 0.0,
+      "artifact_analysis": {
+        "screenshot_count": 6,
+        "log_count": 12,
+        "errors_detected": true,
+        "warnings_detected": false,
+        "performance_issues": false
+      },
+      "triage_notes": [
+        "Low confidence in test results - investigate flakiness",
+        "Test failed in 3 out of 3 executions",
+        "Low reproducibility score (0.0) - test may be unstable",
+        "Console errors detected during execution"
+      ],
+      "evidence": {
+        "execution_count": 3,
+        "key_screenshots": [
+          "artifacts\\screenshots\\sumlink_006_0_20251002_133241.png",
+          "artifacts\\screenshots\\sumlink_006_error_20251002_133311.png"
+        ],
+        "critical_logs": [
+          {
+            "type": "error",
+            "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+            "timestamp": "2025-10-02T13:32:35.969968"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:32:37.520499"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:32:37.599735"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+            "timestamp": "2025-10-02T13:32:35.967960"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:32:37.550164"
+          }
+        ],
+        "execution_summary": [
+          {
+            "agent_id": "exec_0",
+            "success": false,
+            "steps_completed": 0,
+            "error": "Timeout 30000ms exceeded."
+          },
+          {
+            "agent_id": "exec_1",
+            "success": false,
+            "steps_completed": 0,
+            "error": "Timeout 30000ms exceeded."
+          },
+          {
+            "agent_id": "exec_2",
+            "success": false,
+            "steps_completed": 0,
+            "error": "Timeout 30000ms exceeded."
+          }
+        ]
+      },
+      "timestamp": "2025-10-02T13:33:12.686994"
+    },
+    {
+      "test_id": "sumlink_001",
+      "test_name": "Verify basic number tile clicking",
+      "verdict": "FAIL",
+      "consensus": {
+        "status": "fail",
+        "confidence": 0.0,
+        "success_count": 0,
+        "total_count": 3
+      },
+      "cross_validation": {
+        "validated": true,
+        "consistent_steps": true,
+        "consistent_errors": true,
+        "step_variance": 0
+      },
+      "reproducibility_score": 0.0,
+      "artifact_analysis": {
+        "screenshot_count": 12,
+        "log_count": 12,
+        "errors_detected": true,
+        "warnings_detected": false,
+        "performance_issues": false
+      },
+      "triage_notes": [
+        "Low confidence in test results - investigate flakiness",
+        "Test failed in 3 out of 3 executions",
+        "Low reproducibility score (0.0) - test may be unstable",
+        "Console errors detected during execution"
+      ],
+      "evidence": {
+        "execution_count": 3,
+        "key_screenshots": [
+          "artifacts\\screenshots\\sumlink_001_0_20251002_133325.png",
+          "artifacts\\screenshots\\sumlink_001_error_20251002_133340.png"
+        ],
+        "critical_logs": [
+          {
+            "type": "error",
+            "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+            "timestamp": "2025-10-02T13:33:22.655130"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:33:22.684909"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:33:22.688233"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+            "timestamp": "2025-10-02T13:33:22.655130"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:33:22.672620"
+          }
+        ],
+        "execution_summary": [
+          {
+            "agent_id": "exec_0",
+            "success": false,
+            "steps_completed": 2,
+            "error": "Timeout 5000ms exceeded."
+          },
+          {
+            "agent_id": "exec_1",
+            "success": false,
+            "steps_completed": 2,
+            "error": "Timeout 5000ms exceeded."
+          },
+          {
+            "agent_id": "exec_2",
+            "success": false,
+            "steps_completed": 2,
+            "error": "Timeout 5000ms exceeded."
+          }
+        ]
+      },
+      "timestamp": "2025-10-02T13:33:40.610362"
+    },
+    {
+      "test_id": "sumlink_004",
+      "test_name": "Verify score tracking",
+      "verdict": "PASS",
+      "consensus": {
+        "status": "pass",
+        "confidence": 1.0,
+        "success_count": 3,
+        "total_count": 3
+      },
+      "cross_validation": {
+        "validated": true,
+        "consistent_steps": true,
+        "consistent_errors": true,
+        "step_variance": 0
+      },
+      "reproducibility_score": 1.0,
+      "artifact_analysis": {
+        "screenshot_count": 18,
+        "log_count": 12,
+        "errors_detected": true,
+        "warnings_detected": false,
+        "performance_issues": false,
+        "avg_execution_time": 3
+      },
+      "triage_notes": [
+        "Console errors detected during execution"
+      ],
+      "evidence": {
+        "execution_count": 3,
+        "key_screenshots": [
+          "artifacts\\screenshots\\sumlink_004_0_20251002_133348.png",
+          "artifacts\\screenshots\\sumlink_004_final_20251002_133353.png"
+        ],
+        "critical_logs": [
+          {
+            "type": "error",
+            "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+            "timestamp": "2025-10-02T13:33:43.381798"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:33:44.628436"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:33:44.635578"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+            "timestamp": "2025-10-02T13:33:43.347635"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:33:44.582643"
+          }
+        ],
+        "execution_summary": [
+          {
+            "agent_id": "exec_0",
+            "success": true,
+            "steps_completed": 5,
+            "error": null
+          },
+          {
+            "agent_id": "exec_1",
+            "success": true,
+            "steps_completed": 5,
+            "error": null
+          },
+          {
+            "agent_id": "exec_2",
+            "success": true,
+            "steps_completed": 5,
+            "error": null
+          }
+        ]
+      },
+      "timestamp": "2025-10-02T13:33:54.852796"
+    },
+    {
+      "test_id": "sumlink_002",
+      "test_name": "Test stage progression",
+      "verdict": "PASS",
+      "consensus": {
+        "status": "pass",
+        "confidence": 1.0,
+        "success_count": 3,
+        "total_count": 3
+      },
+      "cross_validation": {
+        "validated": true,
+        "consistent_steps": true,
+        "consistent_errors": true,
+        "step_variance": 0
+      },
+      "reproducibility_score": 1.0,
+      "artifact_analysis": {
+        "screenshot_count": 18,
+        "log_count": 14,
+        "errors_detected": true,
+        "warnings_detected": false,
+        "performance_issues": false,
+        "avg_execution_time": 3
+      },
+      "triage_notes": [
+        "Console errors detected during execution"
+      ],
+      "evidence": {
+        "execution_count": 3,
+        "key_screenshots": [
+          "artifacts\\screenshots\\sumlink_002_0_20251002_133406.png",
+          "artifacts\\screenshots\\sumlink_002_final_20251002_133412.png"
+        ],
+        "critical_logs": [
+          {
+            "type": "error",
+            "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+            "timestamp": "2025-10-02T13:33:59.646037"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:34:00.574201"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:34:03.868882"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+            "timestamp": "2025-10-02T13:34:00.019034"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: net::ERR_SOCKET_NOT_CONNECTED",
+            "timestamp": "2025-10-02T13:34:04.191304"
+          }
+        ],
+        "execution_summary": [
+          {
+            "agent_id": "exec_0",
+            "success": true,
+            "steps_completed": 5,
+            "error": null
+          },
+          {
+            "agent_id": "exec_1",
+            "success": true,
+            "steps_completed": 5,
+            "error": null
+          },
+          {
+            "agent_id": "exec_2",
+            "success": true,
+            "steps_completed": 5,
+            "error": null
+          }
+        ]
+      },
+      "timestamp": "2025-10-02T13:34:13.076795"
+    },
+    {
+      "test_id": "sumlink_005",
+      "test_name": "Test wrong combination handling",
+      "verdict": "FAIL",
+      "consensus": {
+        "status": "fail",
+        "confidence": 0.0,
+        "success_count": 0,
+        "total_count": 3
+      },
+      "cross_validation": {
+        "validated": true,
+        "consistent_steps": true,
+        "consistent_errors": true,
+        "step_variance": 0
+      },
+      "reproducibility_score": 0.0,
+      "artifact_analysis": {
+        "screenshot_count": 9,
+        "log_count": 12,
+        "errors_detected": true,
+        "warnings_detected": false,
+        "performance_issues": false
+      },
+      "triage_notes": [
+        "Low confidence in test results - investigate flakiness",
+        "Test failed in 3 out of 3 executions",
+        "Low reproducibility score (0.0) - test may be unstable",
+        "Console errors detected during execution"
+      ],
+      "evidence": {
+        "execution_count": 3,
+        "key_screenshots": [
+          "artifacts\\screenshots\\sumlink_005_0_20251002_133420.png",
+          "artifacts\\screenshots\\sumlink_005_error_20251002_133451.png"
+        ],
+        "critical_logs": [
+          {
+            "type": "error",
+            "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+            "timestamp": "2025-10-02T13:34:15.835821"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:34:17.268164"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:34:17.834549"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+            "timestamp": "2025-10-02T13:34:15.835821"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:34:17.240912"
+          }
+        ],
+        "execution_summary": [
+          {
+            "agent_id": "exec_0",
+            "success": false,
+            "steps_completed": 1,
+            "error": "Timeout 30000ms exceeded."
+          },
+          {
+            "agent_id": "exec_1",
+            "success": false,
+            "steps_completed": 1,
+            "error": "Timeout 30000ms exceeded."
+          },
+          {
+            "agent_id": "exec_2",
+            "success": false,
+            "steps_completed": 1,
+            "error": "Timeout 30000ms exceeded."
+          }
+        ]
+      },
+      "timestamp": "2025-10-02T13:34:53.481759"
+    },
+    {
+      "test_id": "sumlink_003",
+      "test_name": "Test hint functionality",
+      "verdict": "FAIL",
+      "consensus": {
+        "status": "fail",
+        "confidence": 0.0,
+        "success_count": 0,
+        "total_count": 3
+      },
+      "cross_validation": {
+        "validated": true,
+        "consistent_steps": true,
+        "consistent_errors": true,
+        "step_variance": 0
+      },
+      "reproducibility_score": 0.0,
+      "artifact_analysis": {
+        "screenshot_count": 12,
+        "log_count": 12,
+        "errors_detected": true,
+        "warnings_detected": false,
+        "performance_issues": false
+      },
+      "triage_notes": [
+        "Low confidence in test results - investigate flakiness",
+        "Test failed in 3 out of 3 executions",
+        "Low reproducibility score (0.0) - test may be unstable",
+        "Console errors detected during execution"
+      ],
+      "evidence": {
+        "execution_count": 3,
+        "key_screenshots": [
+          "artifacts\\screenshots\\sumlink_003_0_20251002_133509.png",
+          "artifacts\\screenshots\\sumlink_003_error_20251002_133543.png"
+        ],
+        "critical_logs": [
+          {
+            "type": "error",
+            "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+            "timestamp": "2025-10-02T13:35:02.928458"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:35:07.266809"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:35:07.310648"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+            "timestamp": "2025-10-02T13:35:02.252946"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:35:06.732763"
+          }
+        ],
+        "execution_summary": [
+          {
+            "agent_id": "exec_0",
+            "success": false,
+            "steps_completed": 2,
+            "error": "Timeout 30000ms exceeded."
+          },
+          {
+            "agent_id": "exec_1",
+            "success": false,
+            "steps_completed": 2,
+            "error": "Timeout 30000ms exceeded."
+          },
+          {
+            "agent_id": "exec_2",
+            "success": false,
+            "steps_completed": 2,
+            "error": "Timeout 30000ms exceeded."
+          }
+        ]
+      },
+      "timestamp": "2025-10-02T13:35:47.214183"
+    },
+    {
+      "test_id": "sumlink_014",
+      "test_name": "Test game restart",
+      "verdict": "FAIL",
+      "consensus": {
+        "status": "fail",
+        "confidence": 0.0,
+        "success_count": 0,
+        "total_count": 3
+      },
+      "cross_validation": {
+        "validated": true,
+        "consistent_steps": true,
+        "consistent_errors": true,
+        "step_variance": 0
+      },
+      "reproducibility_score": 0.0,
+      "artifact_analysis": {
+        "screenshot_count": 12,
+        "log_count": 12,
+        "errors_detected": true,
+        "warnings_detected": false,
+        "performance_issues": false
+      },
+      "triage_notes": [
+        "Low confidence in test results - investigate flakiness",
+        "Test failed in 3 out of 3 executions",
+        "Low reproducibility score (0.0) - test may be unstable",
+        "Console errors detected during execution"
+      ],
+      "evidence": {
+        "execution_count": 3,
+        "key_screenshots": [
+          "artifacts\\screenshots\\sumlink_014_0_20251002_133557.png",
+          "artifacts\\screenshots\\sumlink_014_error_20251002_133611.png"
+        ],
+        "critical_logs": [
+          {
+            "type": "error",
+            "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+            "timestamp": "2025-10-02T13:35:52.898011"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:35:54.761725"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:35:55.329301"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+            "timestamp": "2025-10-02T13:35:53.241456"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:35:55.307598"
+          }
+        ],
+        "execution_summary": [
+          {
+            "agent_id": "exec_0",
+            "success": false,
+            "steps_completed": 2,
+            "error": "Timeout 5000ms exceeded."
+          },
+          {
+            "agent_id": "exec_1",
+            "success": false,
+            "steps_completed": 2,
+            "error": "Timeout 5000ms exceeded."
+          },
+          {
+            "agent_id": "exec_2",
+            "success": false,
+            "steps_completed": 2,
+            "error": "Timeout 5000ms exceeded."
+          }
+        ]
+      },
+      "timestamp": "2025-10-02T13:36:11.915984"
+    },
+    {
+      "test_id": "sumlink_010",
+      "test_name": "Test best score persistence",
+      "verdict": "PASS",
+      "consensus": {
+        "status": "pass",
+        "confidence": 1.0,
+        "success_count": 3,
+        "total_count": 3
+      },
+      "cross_validation": {
+        "validated": true,
+        "consistent_steps": true,
+        "consistent_errors": true,
+        "step_variance": 0
+      },
+      "reproducibility_score": 1.0,
+      "artifact_analysis": {
+        "screenshot_count": 18,
+        "log_count": 12,
+        "errors_detected": true,
+        "warnings_detected": false,
+        "performance_issues": false,
+        "avg_execution_time": 3
+      },
+      "triage_notes": [
+        "Console errors detected during execution"
+      ],
+      "evidence": {
+        "execution_count": 3,
+        "key_screenshots": [
+          "artifacts\\screenshots\\sumlink_010_0_20251002_133620.png",
+          "artifacts\\screenshots\\sumlink_010_final_20251002_133626.png"
+        ],
+        "critical_logs": [
+          {
+            "type": "error",
+            "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+            "timestamp": "2025-10-02T13:36:15.827478"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:36:17.099806"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:36:17.778181"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+            "timestamp": "2025-10-02T13:36:15.920237"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:36:17.579790"
+          }
+        ],
+        "execution_summary": [
+          {
+            "agent_id": "exec_0",
+            "success": true,
+            "steps_completed": 5,
+            "error": null
+          },
+          {
+            "agent_id": "exec_1",
+            "success": true,
+            "steps_completed": 5,
+            "error": null
+          },
+          {
+            "agent_id": "exec_2",
+            "success": true,
+            "steps_completed": 5,
+            "error": null
+          }
+        ]
+      },
+      "timestamp": "2025-10-02T13:36:27.856148"
+    },
+    {
+      "test_id": "sumlink_011",
+      "test_name": "Test mobile responsiveness",
+      "verdict": "FAIL",
+      "consensus": {
+        "status": "fail",
+        "confidence": 0.0,
+        "success_count": 0,
+        "total_count": 3
+      },
+      "cross_validation": {
+        "validated": true,
+        "consistent_steps": true,
+        "consistent_errors": true,
+        "step_variance": 0
+      },
+      "reproducibility_score": 0.0,
+      "artifact_analysis": {
+        "screenshot_count": 12,
+        "log_count": 12,
+        "errors_detected": true,
+        "warnings_detected": false,
+        "performance_issues": false
+      },
+      "triage_notes": [
+        "Low confidence in test results - investigate flakiness",
+        "Test failed in 3 out of 3 executions",
+        "Low reproducibility score (0.0) - test may be unstable",
+        "Console errors detected during execution"
+      ],
+      "evidence": {
+        "execution_count": 3,
+        "key_screenshots": [
+          "artifacts\\screenshots\\sumlink_011_0_20251002_133635.png",
+          "artifacts\\screenshots\\sumlink_011_error_20251002_133708.png"
+        ],
+        "critical_logs": [
+          {
+            "type": "error",
+            "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+            "timestamp": "2025-10-02T13:36:30.945119"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:36:32.195756"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:36:32.199176"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+            "timestamp": "2025-10-02T13:36:30.959247"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:36:32.822194"
+          }
+        ],
+        "execution_summary": [
+          {
+            "agent_id": "exec_0",
+            "success": false,
+            "steps_completed": 2,
+            "error": "Timeout 30000ms exceeded."
+          },
+          {
+            "agent_id": "exec_1",
+            "success": false,
+            "steps_completed": 2,
+            "error": "Timeout 30000ms exceeded."
+          },
+          {
+            "agent_id": "exec_2",
+            "success": false,
+            "steps_completed": 2,
+            "error": "Timeout 30000ms exceeded."
+          }
+        ]
+      },
+      "timestamp": "2025-10-02T13:37:09.784770"
+    },
+    {
+      "test_id": "sumlink_008",
+      "test_name": "Test sound toggle",
+      "verdict": "PASS",
+      "consensus": {
+        "status": "pass",
+        "confidence": 1.0,
+        "success_count": 3,
+        "total_count": 3
+      },
+      "cross_validation": {
+        "validated": true,
+        "consistent_steps": true,
+        "consistent_errors": true,
+        "step_variance": 0
+      },
+      "reproducibility_score": 1.0,
+      "artifact_analysis": {
+        "screenshot_count": 18,
+        "log_count": 12,
+        "errors_detected": true,
+        "warnings_detected": false,
+        "performance_issues": false,
+        "avg_execution_time": 3
+      },
+      "triage_notes": [
+        "Console errors detected during execution"
+      ],
+      "evidence": {
+        "execution_count": 3,
+        "key_screenshots": [
+          "artifacts\\screenshots\\sumlink_008_0_20251002_133717.png",
+          "artifacts\\screenshots\\sumlink_008_final_20251002_133724.png"
+        ],
+        "critical_logs": [
+          {
+            "type": "error",
+            "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+            "timestamp": "2025-10-02T13:37:12.692550"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:37:14.150041"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:37:14.155169"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED",
+            "timestamp": "2025-10-02T13:37:12.769499"
+          },
+          {
+            "type": "error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()",
+            "timestamp": "2025-10-02T13:37:14.155169"
+          }
+        ],
+        "execution_summary": [
+          {
+            "agent_id": "exec_0",
+            "success": true,
+            "steps_completed": 5,
+            "error": null
+          },
+          {
+            "agent_id": "exec_1",
+            "success": true,
+            "steps_completed": 5,
+            "error": null
+          },
+          {
+            "agent_id": "exec_2",
+            "success": true,
+            "steps_completed": 5,
+            "error": null
+          }
+        ]
+      },
+      "timestamp": "2025-10-02T13:37:27.191863"
+    }
+  ],
+  "metadata": {
+    "game_url": "https://play.ezygamers.com/",
+    "execution_type": "multi-agent",
+    "agents_used": 3
+  },
+  "recommendations": [
+    "High failure rate detected - review game functionality",
+    "6 tests have low reproducibility - investigate test design",
+    "Console errors detected in 10 tests - check application logs"
+  ]
+}
